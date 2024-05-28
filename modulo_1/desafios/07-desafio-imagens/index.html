@@ -9,7 +9,9 @@
     <h1>Testando imagens</h1>
 
     <picture>
-        <img src="foto-g.png" alt="">
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="">
     </picture>
 </body>
 </html>
