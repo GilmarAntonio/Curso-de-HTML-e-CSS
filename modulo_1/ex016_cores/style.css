@@ -6,22 +6,26 @@
 }
 
 body {
-    background-image: linear-gradient(to right, #FFBD64, #FFBD64);
+    background-image: linear-gradient(to right, #8d6b41, #c9934c);
 }
 
 main {
     background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px #b1936fc5;
     width: 600px;
     padding: 20px;
     margin: auto;
 }
 
 h1 {
-    color: #B3803C;
+    color: #e9911e;
+    text-align: center;
+    text-shadow: 2px 2px 2px #bb8d5188 ;
 }
 
 h2{
-    color: #0B405E;
+    color: #5e0b0b;
 }
 
 p {
