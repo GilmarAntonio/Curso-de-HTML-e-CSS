@@ -10,10 +10,21 @@ body {
 }
 
 main {
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     width: 600px;
+    padding: 20px;
+    margin: auto;
+}
+
+h1 {
+    color: #B3803C;
+}
+
+h2{
+    color: #0B405E;
 }
 
 p {
+    color: #0B405E;
     text-align: justify;
 }
