@@ -5,13 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fontes Externas</title>
     <style> 
+    @font-face {
+        font-family: 'love';
+        src: url('Aliqa.ttf') format('truetype');
+        font-weight: normal;
+        font-style: italic;
+        /*
+        Tipos de format
+        -opentype (otf)
+        -truetype (ttf)
+        -embedded-opentype
+        -truetype-aat (Aplle advanced typography)
+        -svg
+        */
+    }
 
     body{
-        font-family: 'Courier New', Courier, monospace;
+        font-family: 'love';
     }
 
     h1 {
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: 'love', Times, serif;
         font-size: 3em;
     }
 
