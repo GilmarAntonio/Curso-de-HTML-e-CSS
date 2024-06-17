@@ -37,3 +37,21 @@ h1#Principal{
 h2 {
     color: rgb(165, 42, 42);
 }
+
+.basico {
+    color: rgb(94, 94, 240);
+    font-weight: bold;
+}
+
+.intermediario {
+    color: blueviolet;
+}
+
+.avançado {
+    color: green;
+}
+
+.destaque {
+    background-color: orange;
+    b
+}
