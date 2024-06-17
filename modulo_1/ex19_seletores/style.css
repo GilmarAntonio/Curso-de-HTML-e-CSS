@@ -1,7 +1,7 @@
 @charset "UTF 8";
 
-/* em HTML é id = em CSS e #*/
-/* em HTML e class em CSS é . */
+/* em HTML é id = em CSS e # (só pode um elemento)*/
+/* em HTML e class em CSS é . (pode varios elementos)*/
 
 @font-face {
     font-family: 'A' ;
