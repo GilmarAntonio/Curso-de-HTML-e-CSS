@@ -16,7 +16,7 @@
         }
 
         a:visited {
-            color: rgb(43, 226, 43);
+            color: rgb(0, 0, 0);
         }
 
         a:hover {
@@ -28,6 +28,19 @@
         a:active {
             color: blueviolet;
         }
+
+        a::before { 
+            content: '☠';
+        }
+
+        a::after {
+            content: '[link] ';
+            text-decoration: nome;
+            font-weight: normal;
+            color: darkgrey;
+        }
+
+
     </style>
 </head>
 <body>
@@ -35,7 +48,7 @@
     <ul>
         <li>Repositorio <a href="https://github.com/" target="_blank">GitHub</a></li>
         <li>Rede social <a href="https://ags.eslcloud.com.br/users/sign_in">Linkedin</a></li>
-        <li></li>
+        
     </ul>
 </body>
 </html>
