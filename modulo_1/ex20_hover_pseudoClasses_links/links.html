@@ -32,13 +32,26 @@
         a::before { 
             content: '☠';
         }
+        .especial {
+            background-color: rgb(229, 255, 0);
+        }
 
-        a::after {
-            content: '[link] ';
+        .especial::after {
+            content: '☠ [link] ';
             text-decoration: nome;
             font-weight: normal;
             color: darkgrey;
         }
+
+        /*
+         #  = ID 
+         .  = class
+         :  = pseudo-class
+         :: = pseudo-element
+         >  = clildren
+
+
+        */
 
 
     </style>
@@ -46,7 +59,7 @@
 <body>
     <h1>Personalizando Links</h1>
     <ul>
-        <li>Repositorio <a href="https://github.com/" target="_blank">GitHub</a></li>
+        <li>Repositorio <a href="https://github.com" class="especial" target="_blank">GitHub</a></li>
         <li>Rede social <a href="https://ags.eslcloud.com.br/users/sign_in">Linkedin</a></li>
         
     </ul>
