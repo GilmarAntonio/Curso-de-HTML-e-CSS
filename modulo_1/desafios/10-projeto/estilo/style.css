@@ -4,7 +4,7 @@
 
 @font-face {
     font-family: 'especial';
-    src: url('/modulo_1/desafios/10-projeto/fonts/Hellbone-Demo.otf') format('opentype');
+    src: url('../fonts/Hellbone-Demo.otf') format('opentype');
     font-weight: normal;
 }
 
@@ -19,6 +19,7 @@
     --fonte-padrão: arial, verdana. helvetica, sans-serif;
     --fonte-destaque: 'Playwrite PE', 'cursive';
     --fonte-especial: 'especial', 'cursive';
+    --fonte-android: 'android', 'cursive';
 }
 
 *{
@@ -52,6 +53,7 @@ main {
 main h1 {
     color: var(--cor5);
     font-family: var(--fonte-destaque);
+    
 }
 
 footer {
