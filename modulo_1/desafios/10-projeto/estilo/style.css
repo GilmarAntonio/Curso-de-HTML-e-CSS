@@ -7,7 +7,11 @@
     src: url('../fonts/Hellbone-Demo.otf') format('opentype');
     font-weight: normal;
 }
-
+@font-face {
+    font-family: 'android';
+    src: url('../fonts/idroid.otf') format('opentype');
+    font-weight: normal;
+}
 :root {
     --cor0: #c5ebd6;
     --cor1: #83e1ad;
@@ -36,7 +40,9 @@ header {
 
 header > h1 {
     color:aliceblue;
-    font-family: var(--fonte-especial);
+    font-family: var(--fonte-android);
+    letter-spacing: 10px;
+
 }
 
 header > p {
