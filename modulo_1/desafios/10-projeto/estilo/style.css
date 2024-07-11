@@ -37,6 +37,8 @@ body {
 
 header {
     background-color: var(--cor4);
+    min-height: 150px;
+    text-align: center;
 }
 
 header > h1 {
@@ -48,6 +50,7 @@ header > h1 {
 
 header > p {
     color: aliceblue;
+    font-size: 2;
 }
 
 nav {
