@@ -36,7 +36,7 @@ body {
 }
 
 header {
-    background-color: var(--cor4);
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
     min-height: 150px;
     text-align: center;
     padding-top: 40px;
@@ -48,10 +48,10 @@ header > h1 {
     letter-spacing: 2px;
     margin-bottom: 20px;
     font-size: 3em;
-   
     margin: auto;
     padding-right: 10px;
     padding-left: 10px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.404);
 
 }
 
@@ -62,16 +62,21 @@ header > p {
     letter-spacing: 5px;
     padding-right: 40px;
     padding-left: 40px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.404);
 
 }
 
 nav {
     background-color: var(--cor5);
+    padding: 20px;
 }
 
-nav > a {
-    margin-right: 30px;
+nav > a {  
     color: rgba(0, 255, 34, 0.76);
+    text-decoration: none;
+    padding: 40px;
+    font-weight: bold;
+    
 }
 
 main {
