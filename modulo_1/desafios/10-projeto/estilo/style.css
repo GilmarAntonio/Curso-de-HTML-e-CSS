@@ -72,10 +72,17 @@ nav {
 }
 
 nav > a {  
-    color: rgba(0, 255, 34, 0.76);
+    color: rgba(255, 255, 255, 0.76);
     text-decoration: none;
-    padding: 40px;
-    font-weight: bold;
+    padding: 10px;
+    font-weight: bold;  
+    border-radius: 10px; 
+    transition-duration: .4s;
+}
+
+nav > a:hover {
+    background-color: var(--cor2);
+    color: var(--cor5);
     
 }
 
