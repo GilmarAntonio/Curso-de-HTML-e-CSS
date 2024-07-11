@@ -39,18 +39,30 @@ header {
     background-color: var(--cor4);
     min-height: 150px;
     text-align: center;
+    padding-top: 40px;
 }
 
 header > h1 {
     color:aliceblue;
     font-family: var(--fonte-android);
-    letter-spacing: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    font-size: 3em;
+   
+    margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
 
 }
 
 header > p {
     color: aliceblue;
-    font-size: 2;
+    font-size: 1.4em;
+    font-family: var(--fonte-especial);
+    letter-spacing: 5px;
+    padding-right: 40px;
+    padding-left: 40px;
+
 }
 
 nav {
