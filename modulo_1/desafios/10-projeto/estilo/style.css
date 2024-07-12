@@ -32,8 +32,9 @@
 }
 
 body {
-    background-color: #c5ebd6 ;
+    background-color: #d5ecdf ;
 }
+
 
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
@@ -99,8 +100,28 @@ main {
 }
 
 main h1 {
-    color: var(--cor5);
-    font-family: var(--fonte-destaque);   
+    font-family: var(--fonte-android);   
+    text-align: center;
+}
+
+main h2 {
+    font-family: var(--fonte-android);
+}
+
+main p {
+    margin: 15px;
+    text-align: justify;
+    text-indent: 30px;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    font-weight:bold;
+}
+
+main strong {
+    color: #063d1e;
+    font-weight: bolder;
+    background-color: #c5ebd6;
+    padding: 5px 7px;
 }
 
 main img {
