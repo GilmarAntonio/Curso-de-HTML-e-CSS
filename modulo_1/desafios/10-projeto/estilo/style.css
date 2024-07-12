@@ -108,7 +108,7 @@ main img {
 }
 
 main img.pequeno {
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
 }
