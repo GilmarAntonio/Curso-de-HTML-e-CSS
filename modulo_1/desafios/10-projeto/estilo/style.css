@@ -35,6 +35,10 @@ body {
     background-color: #d5ecdf ;
 }
 
+p {
+    margin: 15px 0 px;
+}
+
 
 header {
     background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));
@@ -102,10 +106,14 @@ main {
 main h1 {
     font-family: var(--fonte-android);   
     text-align: center;
+    background-image: linear-gradient(to right, var(--cor1), transparent);
 }
 
 main h2 {
     font-family: var(--fonte-android);
+    color: var(--cor5);
+    background-image: linear-gradient(to right, var(--cor1), transparent);
+    text-indent: 10px;
 }
 
 main p {
@@ -120,8 +128,18 @@ main p {
 main strong {
     color: #063d1e;
     font-weight: bolder;
-    background-color: #c5ebd6;
     padding: 5px 7px;
+}
+
+main a {
+    text-decoration: none;
+    color: #1a5c37;
+    background-color: #3ddc84;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor3);
 }
 
 main img {
