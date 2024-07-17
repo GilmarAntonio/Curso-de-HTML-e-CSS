@@ -35,6 +35,10 @@ body {
     background-color: #d5ecdf ;
 }
 
+a.externo::after {
+    content: '\00a0\1F517';/*foi colocado no html a classe > exteno depois do target="_blank" para poder colocar o simbolo do cliper 🔗*/
+}
+
 p {
     margin: 15px 0 px;
 }
@@ -153,22 +157,23 @@ main img.pequeno {
     margin: auto;
 }
 
-iframe {
-    text-align: center; /*não funciona a centralização*/
-}
-
 aside {
     background-color: var(--cor1);
     padding: 10px;
     color: rgb(217, 255, 0);
-    font-size: 1.2em;
+    font-size: 1.2em; /*Tamanho da letra*/
     border-radius: 20px; /*arrendondar as pontas*/
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.39);
 }
 
-aside h3 {
+aside > h3 {
     color: rgb(47, 0, 255);
-    font-family: var(--fonte-destaque);
-    background-color: rgb(255, 255, 255);
+    font-family: var(--fonte-destaque); /*tipo de letra*/
+    background-color: var(--cor3);
+    padding: 20px; /*é o espaçamento em branco*/
+    margin: -10px; /* margin negativa para diminuir borda interna de uma caixa para outra*/
+    border-radius: 10px 10px 0px 0px; /* colocando borda na ordem, 10px emcima na esquerda, 10px emcima na direita, nas demais é 0 px, direita embaixo e esquerda embaixo*/
+    
 }
 
 aside p {
@@ -179,7 +184,7 @@ aside > ul {
     color: rgb(0, 0, 0);
     list-style-position: inside; 
     columns: 2; /*divide as colunas da lista*/
-    list-style-type: '\1F525'; /*emojipedea, o fogo foi pego lá*/
+    list-style-type: '\1F525\00a0\00a0'; /*emojipedea, o fogo foi pego lá, 00a0 é o espaço*/
 }
 
 
