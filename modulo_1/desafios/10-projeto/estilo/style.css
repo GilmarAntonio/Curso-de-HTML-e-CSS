@@ -54,19 +54,20 @@ header {
 header > h1 {
     color:aliceblue;
     font-family: var(--fonte-android);
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     margin-bottom: 20px;
     font-size: 3em;
     margin: auto;
     padding-right: 10px;
     padding-left: 10px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.404);
+    font-weight: normal; /*deixa o negrito da font menos forte*/
 
 }
 
 header > p {
-    color: aliceblue;
-    font-size: 1.4em;
+    color: rgb(255, 0, 0);
+    font-size: 1.7em;
     font-family: var(--fonte-especial);
     letter-spacing: 5px;
     padding-right: 40px;
@@ -100,7 +101,6 @@ main {
     max-width: 1000px;
     margin: auto;
     margin-bottom: 30px;
-    padding: 20px;
     background-color: aliceblue;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.699);
     border-bottom-left-radius: 15px;
@@ -111,6 +111,7 @@ main h1 {
     font-family: var(--fonte-android);   
     text-align: center;
     background-image: linear-gradient(to right, var(--cor1), transparent);
+    font-weight: normal; /*deixa o negrito da font menos forte*/
 }
 
 main h2 {
@@ -118,6 +119,7 @@ main h2 {
     color: var(--cor5);
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 10px;
+    font-weight: normal; /*deixa o negrito da font menos forte*/
 }
 
 main p {
