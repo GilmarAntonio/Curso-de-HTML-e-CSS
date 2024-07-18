@@ -159,16 +159,16 @@ main img.pequeno {
     margin: auto;
 }
 
-/*div.video { 1 exemplo de como o video pode ficar
+div.video { 
     background-color: var(--cor5);
     padding: 40px ; /*espaço entre o video e margin*/
     margin-bottom: 20px; /*espaço entre o entre a margin de baixo*/
-    /*text-align: center; só usar se quiser apenas centralizar o videos, para mais configurações, usar o formato que já está
-}*/
+    /*text-align: center; só usar se quiser apenas centralizar o videos, para mais configurações, usar o formato que já está*/
+}
 
-/*div.video > iframe {
+div.video > iframe {
     width: 100%;
-}*/
+}
 
 div.video {
     background-color: var(--cor5);
