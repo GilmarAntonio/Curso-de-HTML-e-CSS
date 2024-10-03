@@ -12,6 +12,13 @@
     src: url('../fonts/idroid.otf') format('opentype');
     font-weight: normal;
 }
+
+@font-face {
+    font-family: '01';
+    src: url('../fonts/KalniaGlaze-VariableFont_wdth\,wght.ttf') format('truetype');
+    font-weight: normal;
+}
+
 :root {
     --cor0: #c5ebd6;
     --cor1: #83e1ad;
@@ -24,6 +31,7 @@
     --fonte-destaque: 'Playwrite PE', 'cursive';
     --fonte-especial: 'especial', 'cursive';
     --fonte-android: 'android', 'cursive';
+    --fonte-01: '01', 'cursive';
 }
 
 *{
@@ -53,7 +61,7 @@ header {
 
 header > h1 {
     color:aliceblue;
-    font-family: var(--fonte-android);
+    font-family: var(--fonte-01);
     letter-spacing: 4px;
     margin-bottom: 20px;
     font-size: 3em;
