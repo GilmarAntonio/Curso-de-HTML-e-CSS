@@ -5,18 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Treinando</title>
     <style>
-        body {
-            height: 95vh;
+        div.a {
+            height: 420px; /*altura*/
+            border: 5px solid black;
+            margin: 20px;/*espaço entre os blocos*/
+            border-radius: 10px;
+            background-image: url('imagens/leftbottom.png');/*colocando imagem*/
             background-repeat: no-repeat;
         }
 
-        .imagem { }
+        div#a1 {
+            background-position: left top;
+        }
+        div#a2 {
+            background-position: right top;
+        }
+
+        div#a3 {
+            background-position: left bottom;
+        }
+
+        div#a4 {
+            background-position: center center;
+        }
+    
+    
+    
+
     </style>
 </head>
 <body>
-    <div class="imagem" id="a1"></div>
-    <div class="imagem" id="a2"> </div>
-    <div class="imagem" id="a3"></div>
-    <div class="imagem" id="a4"></div>
+    
+    <div class="a" id="a1"></div>
+    <div class="a" id="a2"></div>
+    <div class="a" id="a3"></div>
+    <div class="a" id="a4"></div>
+
 </body>
 </html>
