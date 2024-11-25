@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
             height: 100vh;/*configura para utilizar 100% da tela, nessa caso vai aplicar a imagem na tela inteira*/
@@ -13,6 +13,12 @@
             background-repeat: no-repeat;
             background-size: cover; /*Utilizar para que a imagem não fique se espremendo na tela, a imagem fica fixa em toda a tela */
            /*background-size: 100% 100%;/*deixa a imagem de fundo pegando 100% de largura e altura*/
+           background-attachment: fixed;/* vai manter a imgem de fundo fixa, só vai rolar a parte do conteudo sem distorcer o plano de fundo*/ 
+
+           /*shorthand - background > serve para colocar toda a declaração na mesma linha.
+           Ondenar > color > image > position > repet . [size > attachment]
+           */
+           background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;
         }
         main {
             background-color: aliceblue;
@@ -31,6 +37,14 @@
         <h1>Teste de imagem de fundo</h1>
 
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia inventore, nam commodi cum labore debitis aperiam veritatis aliquam nihil eum, assumenda provident maxime, sed voluptatum numquam delectus dolores veniam. Molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. A in obcaecati et harum quam totam quo sapiente possimus itaque minima aliquam architecto hic, eveniet esse? Molestiae quia aperiam quae reiciendis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia inventore, nam commodi cum labore debitis aperiam veritatis aliquam nihil eum, assumenda provident maxime, sed voluptatum numquam delectus dolores veniam. Molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. A in obcaecati et harum quam totam quo sapiente possimus itaque minima aliquam architecto hic, eveniet esse? Molestiae quia aperiam quae reiciendis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia inventore, nam commodi cum labore debitis aperiam veritatis aliquam nihil eum, assumenda provident maxime, sed voluptatum numquam delectus dolores veniam. Molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. A in obcaecati et harum quam totam quo sapiente possimus itaque minima aliquam architecto hic, eveniet esse? Molestiae quia aperiam quae reiciendis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia inventore, nam commodi cum labore debitis aperiam veritatis aliquam nihil eum, assumenda provident maxime, sed voluptatum numquam delectus dolores veniam. Molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. A in obcaecati et harum quam totam quo sapiente possimus itaque minima aliquam architecto hic, eveniet esse? Molestiae quia aperiam quae reiciendis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia inventore, nam commodi cum labore debitis aperiam veritatis aliquam nihil eum, assumenda provident maxime, sed voluptatum numquam delectus dolores veniam. Molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. A in obcaecati et harum quam totam quo sapiente possimus itaque minima aliquam architecto hic, eveniet esse? Molestiae quia aperiam quae reiciendis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia inventore, nam commodi cum labore debitis aperiam veritatis aliquam nihil eum, assumenda provident maxime, sed voluptatum numquam delectus dolores veniam. Molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. A in obcaecati et harum quam totam quo sapiente possimus itaque minima aliquam architecto hic, eveniet esse? Molestiae quia aperiam quae reiciendis?</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia inventore, nam commodi cum labore debitis aperiam veritatis aliquam nihil eum, assumenda provident maxime, sed voluptatum numquam delectus dolores veniam. Molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. A in obcaecati et harum quam totam quo sapiente possimus itaque minima aliquam architecto hic, eveniet esse? Molestiae quia aperiam quae reiciendis?</p>
+        
+
     </main>
 </body>
 </html>
