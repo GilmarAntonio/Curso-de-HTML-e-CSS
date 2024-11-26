@@ -5,30 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundo fixo de tela</title>
     <style>
-        body {
+        body{
+
             height: 100vh;/*configura para utilizar 100% da tela, nessa caso vai aplicar a imagem na tela inteira*/
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
-            background-position: center top;/*posicionando a imagem no centro emcima*/
-            background-repeat: no-repeat;
+            background-position: center center;/*posicionando a imagem no centro emcima*/
+            background-repeat: no-repeat; /*para não repetir a imagem*/
             background-size: cover; /*Utilizar para que a imagem não fique se espremendo na tela, a imagem fica fixa em toda a tela */
-           /*background-size: 100% 100%;/*deixa a imagem de fundo pegando 100% de largura e altura*/
-           background-attachment: fixed;/* vai manter a imgem de fundo fixa, só vai rolar a parte do conteudo sem distorcer o plano de fundo*/ 
+            background-size: 100% 100%;/*deixa a imagem de fundo pegando 100% de largura e altura*/
+            background-attachment: fixed;/* vai manter a imgem de fundo fixa, só vai rolar a parte do conteudo sem distorcer o plano de fundo*/ 
 
-           /*shorthand - background > serve para colocar toda a declaração na mesma linha.
-           Ondenar > color > image > position > repet . [size > attachment]
-           */
-           background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;
+            /*shorthand - background > serve para colocar toda a declaração na mesma linha.
+            Ondenar > color > image > position > repet . [size > attachment]
+            */
+
+         /* background: black url('imagens/wallpaper002.jpg') center center no-repeat cover fixed;*/
         }
+            
         main {
             background-color: aliceblue;
-            width: 400px; /* É a largura da caixa*/
+            max-width: 400px; /* É a largura da caixa*/
             padding: 10px;/*Espaço interno da caixa*/
             margin: auto;/*Alinhar ao meio*/
             border: 5px solid darkblue; /*Borda da caixa*/
-            border-radius: 15px;
-    
-            
+            border-radius: 15px;  
         }
     </style>
 </head>
